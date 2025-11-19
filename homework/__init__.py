@@ -9,7 +9,7 @@ import sys
 import os
 
 def create_and_save_estimator():
-    data_path = "./files/input/auto_mpg.csv" 
+    data_path = "auto_mpg.csv" 
     try:
         dataset = pd.read_csv(data_path)
     except FileNotFoundError:
